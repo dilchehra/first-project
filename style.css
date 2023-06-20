@@ -1,0 +1,423 @@
+@font-face {
+    font-family: inter;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+.fa-bars{
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1065px;
+    margin: 0 auto;
+}
+
+/* ****HEADER PAGE*** */
+nav {
+    padding: 2rem 0;
+}
+
+.box {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_left ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left a {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.nav_left {
+    width: 40%;
+}
+
+.nav_right {
+    width: 60%;
+}
+
+.nav_right a {
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+}
+
+.left_size {
+    display: flex;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.left_text {
+    width: 70%;
+}
+
+.right_size {
+    width: 30%;
+}
+
+.left_text h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+    color: #272D38;
+    padding-right: 15rem;
+}
+
+.left_text p {
+    font-size: 1.8rem;
+    color: #272D38;
+    padding: 2rem 0;
+    padding-right: 22rem;
+}
+
+.btn {
+    width: 18rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    background-color: #8EADD5;
+    color: #FFFFFF;
+}
+
+menu p {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #667085;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #F6F6F6;
+    border-radius: 0.8rem;
+    width: 0%;
+    margin: 0 auto;
+}
+
+.development_section {
+    padding: 4rem 0;
+}
+
+.development_section .card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.development_section .card h2 {
+    font-size: 3.6rem;
+    line-height: 4.8rem;
+    color: #272D38;
+    width: 70%;
+}
+
+/* .development_section .card .developmet_img {
+    width: 50%;
+} */
+
+.development_section .card p {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: #272D38;
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.read_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.read_section h3 {
+    text-align: center;
+    font-size: 4.8rem;
+    color: #272D38;
+    font-weight: 900;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+.read_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    width: 30%;
+    text-align: center;
+    padding: 3.2rem;
+    background-color: #F6F6F6;
+    border-radius: 2rem;
+}
+
+.row p {
+    color: #272D38;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    padding-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.row .text {
+    font-weight: 200;
+}
+
+.part_section {
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 1rem;
+    margin: 13.6rem auto;
+}
+
+.part_menu {
+    width: 50%;
+}
+
+.part_img {
+    width: 50%;
+}
+
+.part_menu h3 {
+    font-size: 4.8rem;
+    width: 60%;
+}
+
+.part_menu p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #272D38;
+    width: 50%;
+    margin: 2rem 0;
+}
+
+.footer {
+    background-color: #f6f6f6;
+}
+
+.footer_field {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+
+}
+
+.footer .metheus {
+    text-align: center;
+}
+
+.digital h4 {
+    font-size: 1.8rem;
+    color: #272D38;
+    padding-bottom: 2rem;
+}
+
+.digital p {
+    width: 60%;
+    font-size: 1.6rem;
+    color: #272D38;
+}
+
+footer ul li {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+footer ul li a {
+    color: #272D38;
+}
+
+footer ul li:first-child {
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+
+.metheus {
+    color: #272D38;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:450px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav_left ul {
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        margin-right: 2rem;
+        font-size: 2.4rem;
+    }
+
+    .left_size {
+        padding: 2rem 0;
+        flex-direction: column;
+    }
+
+    .left_text {
+        width: 100%;
+    }
+
+    .right_size {
+        width: 100%;
+    }
+
+    .left_text {
+        text-align: center;
+    }
+
+    .left_text h1 {
+        font-size: 4rem;
+        line-height: normal;
+        padding-right: 0rem;
+    }
+
+    .left_text p {
+        font-size: 1.8rem;
+        color: #272D38;
+        padding: 2rem 0;
+        padding-right: 0rem;
+    }
+
+    .images img {
+        width: 15%;
+    }
+
+    .development_section .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .development_section .card:first-child {
+        flex-direction: column-reverse;
+        margin-bottom: 5rem;
+    }
+
+    .development_section .card .development_menu {
+        width: 100%;
+    }
+
+    .development_section .card h2 {
+        width: 100%;
+    }
+
+    .development_section .card .developmet_img {
+        width: 100%;
+    }
+
+    .development_section .card p {
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+        color: #272D38;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .development_section .development_menu img {
+        transform: rotate(90deg);
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .read_section h3 {
+        font-size: 3.2rem;
+        font-weight: 900;
+        width: 100%;
+    }
+    .read_img{
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }   
+    .row {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .part_img{
+        display: none;
+    }
+    .part_menu {
+        width: 100%;
+        text-align: center;
+        padding: 2rem 0;
+
+    }
+    .part_menu h3 {
+        font-size: 3.2rem;
+        width: 80%;
+        margin: 0 auto;
+       
+    }
+    .part_menu p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin: 0 auto;
+        width: 80%;
+        padding: 2rem 0;
+    }
+    .footer_field{
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
+    .digital p{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+}
